@@ -59,7 +59,7 @@ class TestingAppApplicationTests {
 //		now we add two assertions if any of the assertion line fail then test get fail
 		assertThat("Apple")
 				.isEqualTo("Apple")
-				.startsWith("pp")
+				.startsWith("Ap")
 				.endsWith("le")
 				.hasSize(5);
 
